@@ -26,7 +26,7 @@
         <form>
           <div class="entry-info">
             <div class="row">
-              <select id="dayOfWeek">
+              <select id="dayOfWeek" name="dayOfWeek">
                 <option value="dayOfWeek">Day of Week</option>
                 <option value="sunday">Sunday</option>
                 <option value="Monday">Monday</option>
@@ -36,7 +36,7 @@
                 <option value="friday">Friday</option>
                 <option value="saturday">Saturday</option>
               </select>
-              <select id="time">
+              <select id="time" name="time">
                 <option value="time">Time</option>
                 <option value="">6:00AM</option>
                 <option value="">6:30AM</option>
@@ -75,7 +75,7 @@
               </select>
             </div>
             <div class="row">
-              <textarea id="textInput" rows="7" placeholder="Description"></textarea>
+              <textarea name="text-input" id="textInput" rows="7" placeholder="Description"></textarea>
             </div>
             <div class="row submit">
               <input type="submit" id="submit" value="Submit">

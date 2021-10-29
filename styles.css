@@ -102,3 +102,17 @@ textarea {
   border: solid black;
   border-radius: 0;
 }
+
+.days {
+  display: flex;
+  flex-basis: calc(100% / 7);
+  justify-content: space-between;
+}
+
+.days > a {
+  padding-top: 45px;
+  padding-bottom: 45px;
+  width: 105px;
+  height: 105px;
+  text-align: center;
+}

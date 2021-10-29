@@ -15,7 +15,7 @@ a {
   margin-top: 6rem;
   text-decoration: none;
   border-radius: 4px;
-  border: solid;
+  border: solid black;
 }
 
 a:hover {

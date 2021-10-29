@@ -2,7 +2,7 @@
   display: block;
 }
 
-.home-page {
+.addEntryBtn {
   display: flex;
   justify-content: center;
 }
@@ -16,6 +16,12 @@ a {
   text-decoration: none;
   border-radius: 4px;
   border: solid black;
+  box-shadow: 2px 2px;
+  padding: 0.7rem 4.5rem;
+  border-width: 2px;
+  border-color: black;
+  background-color: white;
+  color: black;
 }
 
 a:hover {

@@ -1,8 +1,11 @@
 var $addEntry = document.querySelector('.addEntryBtn');
 var $submit = document.querySelector('#submit');
-var $modalPage = document.querySelector('.modal-page');
+var $modalContainer = document.getElementById('modalContainer');
 
 $addEntry.addEventListener('click', function (event) {
-  $modalPage.className = 'modal-page';
+  $modalContainer.className = 'container';
+});
 
+$submit.addEventListener('click', function (event) {
+  $modalContainer.className = 'hidden';
 });

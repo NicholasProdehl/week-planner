@@ -1,7 +1,6 @@
-var $addEntry = document.querySelector('.addEntryBtn');
+var $addEntry = document.querySelector('.button');
 var $submit = document.querySelector('#submit');
 var $modalContainer = document.getElementById('modalContainer');
-var $form = document.forms[0];
 
 $addEntry.addEventListener('click', function (event) {
   $modalContainer.className = 'container';
@@ -13,7 +12,6 @@ $submit.addEventListener('click', function (event) {
   dataObj.dayOfWeek = document.getElementById('dayOfWeek').value;
   dataObj.time = document.getElementById('time').value;
   dataObj.textInput = document.getElementById('textInput').value;
-  console.log(dataObj);
   event.preventDefault();
 });
 

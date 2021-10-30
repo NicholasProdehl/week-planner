@@ -127,8 +127,8 @@ textarea {
 table {
   border: solid;
   border-collapse: collapse;
-  width: 80vw;
-  height: 15vw;
+  width: 102rem;
+  height: 28rem;
 }
 
 .schedule {

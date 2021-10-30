@@ -126,6 +126,16 @@ textarea {
 
 table {
   border: solid;
+  border-collapse: collapse;
+  width: 80vw;
+  height: 15vw;
+}
+
+.schedule {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 tbody > tr:nth-child(odd) {
@@ -136,6 +146,12 @@ tbody > tr:nth-child(even) {
   background-color: white;
 }
 
-thead {
+th {
   background-color: darkgray;
+  border-right: solid black;
+  text-align: left;
+}
+
+td {
+  border-right: solid black;
 }

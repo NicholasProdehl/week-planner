@@ -106,13 +106,36 @@ textarea {
 .days {
   display: flex;
   flex-basis: calc(100% / 7);
-  justify-content: space-between;
+  justify-content: center;
+  gap: 5rem;
 }
 
 .days > a {
-  padding-top: 45px;
-  padding-bottom: 45px;
-  width: 105px;
-  height: 105px;
+  margin-top: 2rem;
   text-align: center;
+  padding: 3rem 3rem;
+  font-size: 25px;
+  box-shadow: none;
+  border-width: 0.3rem;
+  border: solid;
+}
+
+.days > a:hover {
+  background-color: #ddd;
+}
+
+table {
+  border: solid;
+}
+
+tbody > tr:nth-child(odd) {
+  background-color: lightgray;
+}
+
+tbody > tr:nth-child(even) {
+  background-color: white;
+}
+
+thead {
+  background-color: darkgray;
 }
